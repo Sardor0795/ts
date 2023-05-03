@@ -81,3 +81,38 @@
 // id = "sss";
 
 // console.log(id);
+
+// functions ------------
+
+// function get(x: number, y?: string): void {
+//   x + 5;
+// }
+
+// function get(x: number, y?: string) {
+//   return x + 5;
+// }
+
+// console.log(get(10, "ss"));
+
+// func interface ---------------
+
+// interface func {
+//   (a: number, b: number): void;
+// }
+
+// let get: func = function (a: number, b: number) {};
+
+// interface func {
+//   (a?: number, b?: number): void;
+// }
+
+// interface func {
+//   (a?: number, b?: number): boolean;
+// }
+
+// let get: func = function (a?: number, b?: number) {
+//   return false;
+// };
+
+// get();
+
