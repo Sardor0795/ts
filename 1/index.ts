@@ -14,7 +14,7 @@
 // interface ------------------
 
 // interface Obj {
-//   name: string;
+//   readonly name: string;
 //   age: number;
 //   info: any;
 //   numArr: number[];
@@ -28,3 +28,19 @@
 //   numArr: [1, 5],
 //   other: "5",
 // };
+
+// user.name = "Ann";
+
+// type ------------------
+
+type User = {
+  password: string;
+  age: number | string;
+};
+
+let user: User = {
+  password: "my",
+  age: "12",
+};
+
+console.log(user);
