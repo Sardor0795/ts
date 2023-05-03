@@ -1,9 +1,24 @@
 // TS from Microsoft company
 
-let user = {
-  name: "Jim",
-  age: 20,
-  info: "name",
-};
+// type
+// interface
 
-console.log(user.name);
+// let user = {
+//   name: "Jim",
+//   age: 20,
+//   info: "name",
+// };
+
+// console.log(user.name);
+
+// interface ------------------
+
+interface Obj {
+  name: string;
+  age: number;
+}
+
+let user: Obj = {
+  name: "Jim",
+  age: 14,
+};

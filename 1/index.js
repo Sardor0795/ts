@@ -1,7 +1,5 @@
 // TS from Microsoft company
 var user = {
     name: "Jim",
-    age: 20,
-    info: "name",
+    age: 14,
 };
-console.log(user.name);
