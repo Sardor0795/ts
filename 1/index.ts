@@ -33,14 +33,26 @@
 
 // type ------------------
 
-type User = {
-  password: string;
-  age: number | string;
-};
+// type User = {
+//   password: string;
+//   age: number | string;
+// };
 
-let user: User = {
-  password: "my",
-  age: "12",
-};
+// let user: User = {
+//   password: "my",
+//   age: "12",
+// };
 
-console.log(user);
+// console.log(user);
+
+// tuple ---------------
+
+// let list: [number, string] = [12, "str"];
+// let list: [number, string][] = [[12, "str"], [16, 'ttt']];
+
+// type tuple = [number, string][]
+
+// let list: tuple = [[12, "str"], [16, 'ttt']];
+
+// console.log(list);
+
