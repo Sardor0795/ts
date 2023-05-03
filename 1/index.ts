@@ -116,3 +116,8 @@
 
 // get();
 
+//  class ------------
+
+// private
+// public
+// protected

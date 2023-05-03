@@ -79,3 +79,7 @@
 //   return false;
 // };
 // get();
+//  class ------------
+// private
+// public
+// protected
