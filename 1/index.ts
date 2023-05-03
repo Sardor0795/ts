@@ -56,3 +56,28 @@
 
 // console.log(list);
 
+// enum ---------------
+
+// enum id {
+//   one = 6,
+//   two,
+//   three,
+// }
+
+// // id.one = 3; error - its only read-only
+
+// console.log(id.one);
+// console.log(id.two);
+// console.log(id.three);
+
+// type assertion --------------
+
+// let ids: any = 10;
+
+// let id = ids;
+// let id = ids as string;
+// let id = <string>ids;
+
+// id = "sss";
+
+// console.log(id);
