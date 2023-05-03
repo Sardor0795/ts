@@ -2,6 +2,7 @@
 
 // type
 // interface
+// type vs interface
 
 // let user = {
 //   name: "Jim",
