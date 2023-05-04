@@ -122,3 +122,13 @@
 // private
 // public
 // protected
+
+// ------------------ review
+
+// interface Func {
+//   (s: string, b: number): void;
+// }
+
+// let getData: Func = function (n: string, d: number) {};
+
+// --------------- Generics
