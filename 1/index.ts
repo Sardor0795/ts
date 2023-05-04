@@ -142,12 +142,33 @@
 
 // console.log(numArr);
 
-function getData<T>(a: T[]): T[] {
-  return new Array().concat(a);
+// function getData<T>(a: T[]): T[] {
+//   return new Array().concat(a);
+// }
+
+// let numArr = getData<number>([1, 5, 3]);
+// let strArr = getData<string | number>(["s"]);
+
+// console.log(numArr);
+// console.log(strArr);
+
+// class ------------------
+
+interface Classes {
+  name: string;
+  surname: string;
+  age: number;
 }
 
-let numArr = getData<number>([1, 5, 3]);
-let strArr = getData<string>(["s"]);
+class Person implements Classes {
+  constructor(name: string, surname: string, age: number) {
+    (this.name = name), (this.surname = surname), (this.age = age);
+  }
+  name: string;
+  surname: string;
+  age: number;
+}
 
-console.log(numArr);
-console.log(strArr);
+let user = new Person("Jon", "Dale", 20);
+
+console.log(user);
