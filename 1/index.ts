@@ -132,3 +132,22 @@
 // let getData: Func = function (n: string, d: number) {};
 
 // --------------- Generics
+
+// function getData(a: any[]): any[] {
+//   return new Array().concat(a);
+// }
+
+// let numArr = getData([1, 5, 3]);
+// numArr.push("t");
+
+// console.log(numArr);
+
+function getData<T>(a: T[]): T[] {
+  return new Array().concat(a);
+}
+
+let numArr = getData<number>([1, 5, 3]);
+let strArr = getData<string>(["s"]);
+
+console.log(numArr);
+console.log(strArr);
