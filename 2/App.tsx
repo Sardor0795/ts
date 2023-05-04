@@ -1,29 +1,37 @@
 // import React, { useReducer, useRef, useState } from "react";
 
+// props type ----------------
+
+// // export const App: React.FC<{ name: string; age?: number }> = () => {
+// //   return <div>App</div>;
+// // };
+
+// props type with interface  ----------------
+
 // interface PropType {
 //   name: string;
 //   age?: number;
 //   children: React.ReactNode;
 // }
 
-// // export const App: React.FC<{ name: string; age?: number }> = () => {
-// //   return <div>App</div>;
-// // };
-
 // export const App: React.FC<PropType> = (props) => {
 //   console.log(props.name);
-//   const [data, setData] = useState<number | string>("sdfsdf");
-//   const add = (e: number) => {
+//   const [data, setData] = useState<number | string>("sdfsdf"); // useState --------------
+//   const add = (e: number) => { // eventHandler --------------
 //     console.log(e);
 //   };
-//   // const add = (e: React.MouseEvent) => {
+//   // const add = (e: React.MouseEvent) => { // eventHandler --------------
 //   //   console.log(e);
 //   // };
+
+// useRef  ----------------
 
 //   const inpRef = useRef<HTMLInputElement>(null);
 //   const divRef = useRef<HTMLDivElement>(null);
 
 //   console.log(inpRef);
+
+// useReducer -------------
 
 //   type Action = { type: "request" } | { type: "success" };
 
